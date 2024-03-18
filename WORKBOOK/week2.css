@@ -98,13 +98,13 @@ h2 {
 }
 
 p {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
     color: white;
 }
 
 ul {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
     color: white;
     display: block;
@@ -116,7 +116,7 @@ ul {
     padding-left: 40px;
   }
 
-#image2 {
+#home-page-sketch {
     display: block;
     margin-left: auto;
     margin-right: auto;
