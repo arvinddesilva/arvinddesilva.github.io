@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CREATIVE CODING</title>
+        <link rel="stylesheet" href="creative_coding.css">
+    </head>
+
+    <body>
+        <div class="navbar">
+            <a href="index.html">ARVIND DE SILVA</a>
+        </div>
+          
+        <div class="title">
+            <h1>CREATIVE<br>CODING</h1>
+        </div>
+
+        <div class="content">
+
+            <h2>hello,
+            <br><br>
+            sorry for the late submission of this workbook :(
+            <br><br>
+            i spent an ungodly amount of time trying to figure out how to make 3D planets in p5 for my home page (didn't work but i put it down below)
+            <br><br>
+            then i realised i forgot to take screenshots of my work throughout the weeks and had to go back and compile them all (won't make that mistake again)
+            <br><br>
+            but here's my work :D
+            <br><br>
+            </h2>
+
+            <div class="sketches">
+
+            <img src="IMAGES\p5-sketch5.gif" id="P5-sketch5" width="800" height="400">
+            <img src="IMAGES\p5-sketch5-code.png" id="P5-sketch5-code" width="800" height="400">
+
+            <br><br><br>
+
+            <img src="IMAGES\p5-sketch6.gif" id="P5-sketch6" width="800" height="400">
+            <img src="IMAGES\p5-sketch6-code.png" id="P5-sketch6-code" width="800" height="400">
+
+            <br><br><br>
+
+            <img src="IMAGES\chrome-capture-2024-4-17.gif" id="P5-sketch1" width="800" height="400">
+            <img src="IMAGES\p5-sketch1.png" id="P5-sketch1-code" width="800" height="400">
+            <br>
+            <p>cursor trails</p>
+
+            <br><br><br>
+
+            <img src="IMAGES\p5-sketch2.gif" id="P5-sketch2" width="800" height="400">
+            <img src="IMAGES\p5-sketch2-code.png" id="P5-sketch2-code" width="800" height="400">
+        
+            <br><br><br>
+
+            <img src="IMAGES\p5-sketch3.gif" id="P5-sketch3" width="800" height="400">
+            <img src="IMAGES\p5-sketch3-code.png" id="P5-sketch3-code" width="800" height="400">
+            
+            <br><br><br>
+
+            <img src="IMAGES/p5-sketch4.gif" id="P5-sketch4" width="800" height="400">
+            <img src="IMAGES\p5-sketch4-code.png" id="P5-sketch4-code" width="800" height="400">
+            <br>
+            <p>dice game randomisation</p>
+
+            <br><br><br>
+
+            <img src="IMAGES\PortraitOfAFriend.png" id="PortraitOfAFriend" width="800" height="700">
+            <br>
+            <p>portrait of a friend (1 minute sketch)</p>
+
+            <br><br><br>
+
+            <img src="IMAGES\Dot-To-Dot.png" id="Dot-To-Dot" width="800" height="700">
+            <br>
+            <p>dot to dot</p>
+
+            <br><br><br>
+
+            <img src="IMAGES\image-load.png" id="Image Load" width="800" height="700">
+            <br>
+            <p>image load</p>
+
+            <br><br><br>
+
+            <img src="IMAGES\p5-sound.gif" id="Sound" width="800" height="700">
+            <br>
+            <img src="IMAGES\p5-sound-code1.png" id="p5-sound-code1" width="400" height="350">
+            <img src="IMAGES\p5-sound-code2.png" id="p5-sound-code2" width="400" height="350">
+            <br>
+            <p>visualising audio data</p>
+
+            <br><br><br>
+
+        </div>
+
+            <h2>here's my attempt at making 3D planets in p5 using chatGPT as a guide
+                <br><br>
+                this took a lot of trial and error, having to iterate my prompts in chatGPT to acheive my desired outcome
+                <br><br>
+                i started by creating a sphere, then adding a "texture" which was an image of a gradient
+                but i didn't like how the gradient wasn't really smooth
+                <br><br>
+                it was also kinda hard to figure out the perspective to view the planets without them getting distorted
+            </h2>
+
+        <div class="sketches">
+            <img src="IMAGES\P5-planets-1.gif" id="P5-planets-1" width="800" height="400">
+            <br>
+            <img src="IMAGES\p5-planets-code1.png" id="p5-planets-code1" width="400" height="400">
+            <img src="IMAGES\p5-planets-code2.png" id="p5-planets-code2" width="400" height="400">
+        </div>
+
+        <br><br><br>
+        
+        <h2>
+            then i tried to make orbiting 3D spheres by referencing code from Ted Davis' p5 library:
+            <a href="https://teddavis.org/p5live/">Ted Davis p5 library</a>
+            <br><br>
+            i thought this looked kinda cool but i wanted the spheres to be filled with a gradient, which seemed quite hard to achieve 
+        </h2>
+
+        <div class="sketches">
+            <img src="IMAGES\p5-planets2.gif" id="P5-planets-2" width="800" height="400">
+            <br>
+            <img src="IMAGES\p5-planets2-code1.png" id="p5-planets2-code1" width="400" height="400">
+            <img src="IMAGES\p5-planets2-code2.png" id="p5-planets2-code2" width="400" height="400">
+        </div>
+
+        <br><br><br>
+
+        <h2>
+            then i found this youtube tutorial which seemed to achieve what i really wanted:
+            <a href="https://www.youtube.com/watch?v=CuD_HHrmDiA">Make a Planet in p5.js</a>
+            <br><br>
+            but this code was really complicated using a lot of math, and because i couldn't find the source code i had to copy it from the video by manually typing it out
+            <br><br>
+            and the animation was taking a lot of power to run, which my computer couldn't really handle so i decided to ditch this because i figured it wouldn't be practical
+            <br><br>
+            it wouldn't load when i tried to run it again so all i have is this black square which is sad because it did look kinda cool :'(            
+        </h2>
+
+        <div class="sketches">
+            <img src="IMAGES\p5-planets3.png" id="P5-planets-2" width="800" height="400">
+            <br>
+            <img src="IMAGES\p5-planets3-code1.png" id="p5-planets3-code1" width="400" height="400">
+            <img src="IMAGES\p5-planets3-code2.png" id="p5-planets3-code2" width="400" height="400">
+        </div>
+
+        <br><br><br>
+        
+        <h2>
+            but overall it was really fun learning how to do all 
+            the really cool stuff on p5 and i'm definitely gonna 
+            spend more time outside of this messing around with it!
+        </h2>
+
+
+
+        
+
+
+
+          
+            
+    
+        
+        </body>
+<html>
